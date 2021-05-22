@@ -1,0 +1,50 @@
+.BgPic {
+  width: 100%;
+  height: 60vh;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+.MainTile_Content {
+  height: 45vh;
+}
+
+.MainTile_h1 {
+  padding: 20vh 0 1vh 2vw;
+  margin: 0;
+  font-size: 3.5em;
+}
+
+.MainTile_Play {
+  margin: 1vh 2vw;
+  padding: 1vh 3vw;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.MainTile_MyList {
+  margin: 1vh 0vw;
+  padding: 1vh 3vw;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.MainTile_p {
+  margin: 1vh 2vw;
+  width: 30vw;
+}
+
+.MainTile_Fade {
+  width: 100%;
+  height: 15vh;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}

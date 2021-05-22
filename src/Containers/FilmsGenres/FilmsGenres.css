@@ -1,0 +1,95 @@
+.FilmsGenres {
+  margin-left: 2vw;
+}
+
+.FilmsGenres_MaxHeight {
+  max-height: 150px;
+}
+
+.FilmsGenres_Pic {
+  width: 180px;
+  height: 100px;
+  transition: transform 0.4s ease;
+}
+.FilmsGenres_Pic:hover {
+  transform: scale(1.1);
+}
+
+.FilmsGenres_Row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+
+.FilmsGenres_RowElement {
+  width: 200px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.FilmsGenres_ToggleYouTube {
+  height: 0;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.FilmsGenres_YouTube {
+  overflow-y: hidden;
+  max-height: 500px; /* approximate max height */
+  height: 500px;
+  position: relative;
+  top: -50px;
+
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.FilmsGenres_ArrowLeft {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.FilmsGenres_ArrowLeft:hover {
+  opacity: 0.7;
+}
+
+.FilmsGenres_ArrowRight {
+  position: relative;
+  top: 0px;
+  float: right;
+  width: 100px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.FilmsGenres_ArrowRight:hover {
+  opacity: 0.7;
+}
+
+.FilmsGenres_Player {
+  position: relative;
+}

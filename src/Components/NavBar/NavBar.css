@@ -1,0 +1,34 @@
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavBar_Background {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavBar_Netflix {
+  height: 30px;
+  width: auto;
+  padding: 10px 10px 5px 20px;
+}
+
+.NavBar_User {
+  height: 30px;
+  width: auto;
+  padding: 10px 20px 5px 10px;
+}
