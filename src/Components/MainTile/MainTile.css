@@ -48,3 +48,9 @@
     rgba(0, 0, 0, 1) 100%
   );
 }
+
+@media all and (max-width: 800px) {
+  .MainTile_p {
+    width: 60vw;
+  }
+}

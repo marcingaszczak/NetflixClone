@@ -36,6 +36,7 @@ function Main() {
             setListForBanner(response.results)
         })
         .catch((error)=>{console.log(error)}) //obsługa błędu
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     useEffect(() => {
@@ -46,6 +47,7 @@ function Main() {
             window.removeEventListener('scroll')
         }
     },[])
+
 
     const handleYTOpen = (gen, movie) => {
         const allFalse = {Netflix_Originals: false,

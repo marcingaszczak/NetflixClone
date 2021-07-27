@@ -17,6 +17,7 @@ const [left,setLeft] = useState(0)
             setList(response.results)
         })
         .catch((error)=>{console.log(error)}) //obsługa błędu
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const handleRightScroll = () => {
@@ -57,6 +58,8 @@ const [left,setLeft] = useState(0)
             rel: 0,
         },
     }
+
+    console.log('render')
 
     return (
         <div className={props.isYTOpen[props.gen] ? 'FilmsGenres' : 'FilmsGenres FilmsGenres_MaxHeight'}>
